@@ -1,2 +1,2 @@
-FROM docker.io/amazon/opendistro-for-elasticsearch:1.13.1
+FROM docker.io/amazon/opendistro-for-elasticsearch:1.13.2
 RUN bin/elasticsearch-plugin install --batch https://artifacts.elastic.co/downloads/elasticsearch-plugins/repository-s3/repository-s3-7.10.2.zip
